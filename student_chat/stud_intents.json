@@ -1,0 +1,90 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag":"CIA1 mark",
+        "patterns":["what is my cia1 marks?","what are my cia1 marks?","CIA 1 mark","cia1"],
+        "responses":["CIA I<br><b>Software Testing: </b>32<br><b>Android: </b>33<br><b>Android Practical: </b>40"]
+      },
+      {
+        "tag":"software testing",
+        "patterns":["st marks","software testing marks","what is my software testing mark?"],
+        "responses":["SOFTWARE TESTING<br><b>CIA 1:</b>32<br><b>CIA 2:</b>31<br><b>SEMESTER:</b>92"]
+      },
+      {
+        "tag":"Android",
+        "patterns":["android marks","what is my android mark?"],
+        "responses":["ANDROID<br><b>CIA 1:</b>33<br><b>CIA 2:</b>34<br><b>SEMESTER:</b>93"]
+      },
+      {
+        "tag":"Android Practicals",
+        "patterns":["lab marks","android lab marks","android practicals mark","what is my android lab mark?"],
+        "responses":["ANDROID PRACTICALS<br><b>CIA 1:</b>40<br><b>CIA 2:</b>40<br><b>SEMESTER:</b>100"] 
+      },
+      {
+        "tag":"CIA2 mark",
+        "patterns":["what is my cia2 marks?","what are my cia2 marks?","CIA 2 mark","cia2"],
+        "responses":["CIA II<br><b>Software Testing: </b>31<br><b>Android: </b>34<br><b>Android Practical: </b>40"]
+      },
+      {
+        "tag":"CIA mark",
+        "patterns":["what is my cia marks?","what are my cia marks?","CIA mark"],
+        "responses":["CIA I<br><b>Software Testing: </b>32<br><b>Android: </b>33<br><b>Android Practical: </b>40<br><br>CIA II<br><b>Software Testing: </b>31<br><b>Android: </b>34<br><b>Android Practical: </b>40"]
+      },
+      {
+        "tag":"Semsester",
+        "patterns":["what is my semester marks?","what are my sem marks?","sem mark","semester"],
+        "responses":["SEMESTER<br><b>Software Testing: </b>92<br><b>Android: </b>93<br><b>Android Practical: </b>100"]
+      },
+      {
+        "tag":"attendance",
+        "patterns":["what is my attendance","attendance"],
+        "responses":["ATTENDANCE<br><b>Software Testing: </b>92%<br><b>Android: </b>93%<br><b>Android Practical: </b>95%"]
+      },
+      {
+        "tag":"st attendance",
+        "patterns":["what is my st attendance","st attendance","software testing attendance"],
+        "responses":["ATTENDANCE<br><b>Software Testing: </b>92%"]
+      },
+      {
+        "tag":"android attendance",
+        "patterns":["what is my android attendance","android attendance"],
+        "responses":["ATTENDANCE<br><b>Android: </b>93%"]
+      },
+      {
+        "tag":"lab attendance",
+        "patterns":["what is my lab attendance","lab attendance","android lab attendance","android practicals attendance"],
+        "responses":["ATTENDANCE<br><b>Android Practicals: </b>95%"]
+      }
+    ]
+}

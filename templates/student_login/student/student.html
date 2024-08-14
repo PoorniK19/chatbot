@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Student Page</title>
+        <link rel="stylesheet" href="student.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <center><h1><br>Student Login</h1></center>
+        <br><header>
+            
+
+            <div class="header_container">
+                
+               <img src="wccimg.png" width="140" height="50">
+              <nav>
+                <ul style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">General</a></li>
+                  <li><a href="#">Registration</a></li>
+                  <li><a href="#">Fee Payment</a></li>
+                  <li><a href="#">Downloads</a></li>
+                  <li><a href="#" onclick="history.back()" >Logout</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header><br>
+          <marquee style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><b><h3>Students can check out their internal marks using the chatbot</h3></b> </marquee>
+          <br><br><span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+           
+            <h3 style="color:red;"><u> To all the students :</u></h3><br>
+            <span style="font-size:larger;font-weight:bolder;font-synthesis: style;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><p><br>Students should not participate in fashion shows and TV programs without permission from the principal.
+            <br>Request for modelling and acting in movies will not be entertained.No matter for publication or interviews in newspaper,magazines,journals,radio,television or social media may 
+            be submitted in the name of the college by students without prior permission from principal.Strict action will be initiated and will lead to explusion of the student.</p></center></span><br>
+          
+            <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+                <h3 style="color:red;"><u> Notice to Parents :</u></h3><br>
+                <span style="font-size:larger;font-weight:bolder;font-synthesis: style;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <b>Dear Parents</b><br><br>
+                <b>We wish to highlight the following with regard to your wards.</b><br>
+                <br><u><h4>ATTENDANCE :</h4></u><br><br>
+                1.I to IV: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A minimum of 85% Attendance is compulsory to appear for the End Semester Examinations.
+                <br><br>2. Part V:
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)Physical Education - 40 hours per year-Compulsory for all year students." <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Extension Activities - 50 hours per year - Compulsory for all year students."
+                <br><br>If a student is unable to complete both Part V courses (1) & (2) during the respective year of study, they are eligible to complete it in the following year/ years by registering again and putting in the required hours. Failing which, they will not be eligible to get a degree even though they pass all Part I to IV papers.
+                <br><br>3. As per the regulations of the University of Madras, students must complete their degree by clearing all their arrears within N+2 years for UG & PG (where N3 for UG programs and N2 for PG programs).
+                <br><br><u><h4>STUDENT PORTAL :</h4></u><br><br>
+                Parents can view the following in the student portal
+                Notices, Attendance, Leave Application, Exam Timetable, Hall Ticket, CIA Marks, End Semester Results, Fee Payment, Dues Status, Scholarship application and Convocation Registration.
+                 </span>
+            <div class="container">
+            <div class="chatbox">
+                <div class="chatbox__support">
+                    <div class="chatbox__header">
+                        <div class="chatbox__image--header">
+                            <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                        </div>
+                        <div class="chatbox__content--header">
+                            <h4 class="chatbox__heading--header">Chat support</h4>
+                            <p class="chatbox__description--header">Hi. My name is Wednesday. How can I help you?</p>
+                        </div>
+                    </div>
+                    <p>Select an button according to your need</p>
+                    <center>
+                    <button class="resp_button" onclick="att_resp()"><b>Attendance</b></button>
+                    <button class="resp_button" onclick="cia_resp()"><b>CIA Marks</b></button>
+                    <button class="resp_button" onclick="sem_resp()"><b>Semester Marks</b></button>
+                    </center>
+                    <div class="chatbox__messages">
+                        <div>
+                        </div>
+                    </div>
+                    <div class="chatbox__footer">
+                        <input type="text" placeholder="Write a message...">
+                        <button class="chatbox__send--footer send__button">Send</button>
+                        <button onclick="speech_text()"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                        <span id="action"></span>
+                    </div>
+                </div>
+                <div class="chatbox__button">
+                    <button><img src="bot2.png" width="50px" height="50px" /></button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="student.js"></script>
+    <script type="text/javascript" src="stud.js"></script>
+</html>

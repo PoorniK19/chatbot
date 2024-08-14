@@ -1,0 +1,307 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "UG courses",
+      "patterns": [
+        "What are the undergraduate courses available here?",
+        "What are the self financed courses?",
+        "What are the government funded courses?",
+        "ug courses",
+        "under graduate courses"
+      ],
+      "responses": [
+        "<b>Undergraduate Programs:</b><br><b>SHIFT-1(Government Aided):</b><br><br>1.B.A. History <br>2.B.A. English <br>3.B.Sc. Mathematics <br>4.B.Sc. Physics <br>5.B.Sc. Chemistry <br>5.B.Sc. Plant Biology & Plant Biotechnology <br>6.B.Sc. Advanced Zoology & Biotechnology <br>7.B.Sc. Home Science - Nutrition Food Service Management & Dietetics (General & Vocational Streams) <br>8.B.Sc. Computer Science B.Sc. Psychology<br><b>SHIFT 2(Self-financed):</b><br><br>1. B.Com.<br>2. B.Com. (General)<br>3. B.Com. (Accounting & Finance)<br>4. B.Com. (ComputerApplications)<br>5. B.Com. (Honours)<br>6. B.B.A.<br>7. B.C.A.<br>8. B.A. Corporate Economics<br>9. B.Sc. Visual Communication<br>10. B.Sc. Information Technology<br>11. B.Sc. Psychology"
+      ]
+    },
+    {
+      "tag":"PG_courses",
+      "patterns":
+      [
+        "What PG courses are available here?",
+        "Postgraduate courses in WCC",
+        "pg courses",
+        "post graduate course"
+      ],
+      "responses":
+      [
+        "<b>Postgraduate Programs :</b><br><b>SHIFT-1(Government Aided):</b><br><br>1.M.Sc. Home Science - Foods & Nutrition<br>2. M.Sc. Home Science - Food Service Management & Dietetic<br>3. M.Sc. Applied Psychology (with specialization in Organizational Behaviour /Counselling & Psychotherapy)<br><b>SHIFT 2(Self-financed):</b><br><br>1. M.Sc. Mathematics<br>2. M.Sc. Physics<br>3. M.Sc. Chemistry<br>4. M.Sc. Biotechnology<br>5. M.Sc. Information Technology<br>6. M.A. Communication<br>7. M.A. Human Resource Management<br>8. M.A. English<br>9. M.A. International Studies<br>10.M.Com. (General)"
+      ]
+    },
+    {
+      "tag":"research_programs",
+      "patterns":
+      [
+        "What are the research programs courses available here?",
+        "research programs in WCC",
+        "research program"
+      ],
+      "responses":
+      [
+        "<b>Research Programs:</b><br>SHIFT-1(Government-aided):<br>1. M.Phil. Home Science - Foods & Nutrition<br>2. M.Phil. Home Science - Food Service Management & Dietetics<br>3. M.Phil. Psychology<br>4. Ph.D. Home Science<br>5. Ph.D. Psychology<br><b>SHIFT-2(Self-financed):</b><br>1. M.Phil. Biotechnology<br>2. M.Phil. Chemistry<br>3. M.Phil. Computer Science<br>4. Ph.D. Biotechnology<br>5. Ph.D. Computer Science<br>"
+      ]
+    },
+    {
+      "tag":"international",
+      "patterns":
+      [
+        "What are the international programs courses available here?",
+        "international programs in WCC"
+      ],
+      "responses":
+      [
+        "<b>International Programs</b><br>1. American Transfer Program (ATP) - Concordia College, New York, USA<br>2. Britain Transfer Program (BTP) - Middlesex University, London, UK<br>3. Semester Abroad Program - Le Tourneau University, Texas, USA<br>4. Short Term Study Abroad Program - Binary University, Malaysia"
+      ]
+    },
+    {
+      "tag": "BCA",
+      "patterns": [
+        "is BCA available here?",
+        "is BCA available?",
+        "BCA"
+      ],
+      "responses": [
+        "Yes! BCA is available here.Women's Christian Collge is placed at 7th rank for BCA."        
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with debit cards?",
+        "Do you accept only the cash"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and cash",
+        "We accept most major credit cards, and debit cards",
+        "we accept cash,net banking and cards"
+      ]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [
+        "What are the facilities available? ",
+        "what are the amenities available?",
+        "facilities",
+        "amenities"
+      ],
+      "responses": [
+       "<b>Facilities</b><br>Information Resource Center(Library)<br>Bank<br>Xerox Centre<br>Canteen<br>Kisok<br>RO Plant<br>ELS Store<br>Non Resident's Common Room<br>Hostel"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "is hostel available? ",
+        "is there a hostel at this college?",
+        "hostel",
+        "hostel facility"
+      ],
+      "responses": [
+       "<b>Yes</b> hostel facility is available."
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "who is the principal of this college? ",
+        "who is the principal?",
+        "principal name"
+      ],
+      "responses": [
+       "Dr. Lilian I Jasper is the principal of Women's Christian College."]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "what is phone no for the administration office?",
+        "how to contact the college?",
+        "Contact details of the college ",
+        "contact"
+      ],
+      "responses": [
+       "<b>Phone</b><br><i>Government-Aided Programmes</i><br>+91 044 2827 5926<br><i>Self-Financed Programmes</i><br>+91 044 2823 1676<br><b>Fax:</b><br>+91 044 2827 6798<br><b>Email:</b><br> info@wcc.edu.in"]
+    },
+    {
+      "tag":"dresscode",
+      "patterns":
+      [
+        "Dresscode in WCC ?",
+        "What dress can i wear inside the campus ?",
+        "dresscode",
+        "dress code"
+      ],
+      "responses":
+      [
+        "No sleeveless, transparent and flimsy cloth, no shorts, short skirts, ripped jeans. No crop top and cold shoulders.",
+        "Any decent dress would be great for WCC"
+      ]
+    },
+    {
+      "tag":"BCA_subjects",
+      "patterns":
+      [
+        "What are the Subjects of BCA ?",
+        "How many subjects are there in BCA ?",
+        "bca subjects"
+      ],
+      "responses":
+      [
+        "1.C# & Python Programming<br>2.Multimedia & WebTechnologies<br>3.Java & Advanced Java<br>4.SQL, NOSQL Databases<br>5.Software Testing<br>6.Android Programming &Android Lab<br>7.Data Analytics &Internet of Things<br>8.Fuzzy Logic & Security in Computing<br>9.Machine Learning & Cloud Computing<br>10.Software Development"
+      ]
+    },
+    {
+      "tag":"scope_BCA",
+      "patterns":
+      [
+        "What can i do after BCA?",
+        "what is the scope of the BCA?",
+        "after bca"
+      ],
+      "responses":
+      [
+       "Postgraduate Degree in Computer Science, Computer Applications, Business Administration and Data Analytics Placement opportunities in IT, ITES & Banking Sectors."
+      ]
+    },
+    {
+      "tag":"placements",
+      "patterns":
+      [
+        "placements available",
+        "placements",
+        "placements in wcc"
+      ],
+      "responses":
+      [
+        "According to media reports, a total of <b>78 students</b> have been placed during Women's Christian College placements 2023. Further, the salary package offered during Women's Christian College placements 2023 stood between<b> INR 4.30 LPA and INR 8.5 LPA</b>",
+        "<ul><li><b>No. of students placed :78</b></li><li><b>Salary package range:INR 4.30 LPA to INR 8.5 LPA</b></li><li><b>No. of companies visited :8</b></li></ul>"
+      ]
+    },
+    {
+      "tag":"elective",
+      "patterns":
+      [
+        "elective courses",
+        "elective courses in wcc",
+        "elective"
+      ],
+      "responses":
+      [
+        "<b>Elective courses:</b><br><br><ul><li><b>NME List</b></li><li><b>CE List</b></li><li><b>SKB List</b></li><li><b>SE List</b></li></ul>"
+      ]
+    },
+    {
+      "tag":"scholarship",
+      "patterns":
+      [
+        "scholarship in wcc",
+        "scholarship",
+        "available scholarships in wcc"
+      ],
+      "responses":
+      [
+        "<b>Scholarship :</b><br><br><ul><li>Central Government Scholarship :<br><p>Post Matric Minority Scholarship  This scholarship is offered by the Central Government to students belonging to minority communities like Muslims, Sikhs, Jains, Christians etc. Scholarship is offered based on the income of the parents. Announcements are made by the Government through an advertisement in the newspaper. Students can apply online through the National Scholarship portal (NSP). </p></li><li>Government of Tamil Nadu :<br>Shift 1:<br>SC/ ST Scholarship<br>BC/ MBC/ de-notified communities Scholarship<br><br>Shift 2<br>SC/ ST Scholarship</li><li>Management Scholarship: <br>Management scholarship is a merit cum means scholarship and it is sanctioned based on the recommendations of the department and discretion of the Principal.</li><li>Scranton Scholarship</li><li>Blue Oval Scholarship</li></ul>"
+      ]
+    },
+    {
+      "tag":"attendance",
+      "patterns":
+      [
+        "attendance in wcc",
+        "attendance percentage",
+        "attendance",
+        "required attendance percentage in wcc"
+      ],
+      "responses":
+      [
+        "<b>Attendance :</b><br>The working hours of the College for <b>SHIFT-1</b> are from 08.00 am to 01.20 pm <b>SHIFT-2</b> are from 12:30 pm to 05:30 pm. Students are required to be punctual and regular to class.Attendance will be taken every hour of classes.<b>Above 55%</b> is required to attend End Semester Examination ,if the students fails to attain the required percentage has to pay condonation of attendance."
+      ]
+    },
+    {
+      "tag":"condonation",
+      "patterns":
+      [
+        "condonation",
+        "what is condonation",
+        "condonation in wcc"
+      ],
+      "responses":
+      [
+        "<b>Condonation of Attendance :</b><br>Detailed written requests supported by relevant data should be submitted to the Principal for condonation of <b>lack of attendance</b> to appear for the End of Semester Examinations. The Principal’s decision will be final.",
+        "Condonations can be paid by students whose attendance are lacking"
+      ]
+    },
+    {
+      "tag":"academics",
+      "patterns":
+      [
+        "other activities in wcc",
+        "academics",
+        "academics in wcc",
+        "details about academics"
+      ],
+      "responses":
+      [
+        "<b>Academics :</b><br>A student has to earn compulsory credits for <b>Value Education</b>,<b>Physical Education & Extension Activities</b> to qualify for a degree.",
+        "Students participating in co-curricular and extra-curricular activities in college / university programs should submit duly signed leave requests in advance failing which they will be marked absent."
+      ]
+    },
+    {
+      "tag":"value education",
+      "patterns":
+      [
+        "other than academics",
+        "value educations in wcc",
+        "physical education"
+      ],
+      "responses":
+      [
+        "<b>Value Education :</b><br><ol><li><b>Scripture :</b> An organized study of the Bible is offered to all Christian students. Students can choose either CEC (Christian Educational Council) or TAFTEE (The Association for Theological Education by Extension) which earns them one credit per year in their Academic Curriculum.</li><li><b>Holistic Value Education :</b> Holistic Value Education is offered to all Non-Christian students.This course earns them one credit per year in their Academic Curriculum.</li> <li><b>Physical Education :</b>A student has to compulsorily participate in physical fitness activities offered by the department during the first year as a part of her course requirement.</li>0 <li><b>Outreach Education :</b>Extension activities are a compulsory part of the curriculum, to inculcate in the students, and awareness of their role in the community and the needs of the less privileged.</li></ol>"
+      ]
+    },
+    {
+      "tag":"safety",
+      "patterns":
+      [
+        "safety and security in wcc",
+        "is wcc safe for girls"
+      ],
+      "responses":
+      [
+        "safety in Chennai's Women's Christian College, the institution has deployed female security guards on its campus.<b>Ragging</b> in any form is strictly <b>prohibited on campus</b>. Students who are directly or indirectly involved in ragging will be punished as per the Government rules. Incidents of ragging should be reported to the Principal immediately and written complaints may be dropped in a <b>Black Box</b> available at the Principal's Office."
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(120deg, rgba(88,27,152,1) 25%, rgba(45,27,152,1) 56%, rgba(143,114,161,1) 89%);
+    height: 100vh;
+    overflow:hidden
+}
